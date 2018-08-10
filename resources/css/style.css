@@ -7,12 +7,30 @@ h1 {
     font-weight: bold;
     color: white;
 }
-a {
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+a.link {
     color: white;
-    text-decoration: none;
+    font-size: 18px;
 }
 .header {
     background-image: url(the-flatiron-building.png);
     background-size: cover;
 }
-
+h3.white {
+    background-image: url(the-flatiron-building.png);
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+} 
+.footer p {
+    text-align: left;
+    background-color: dimgray;
+    color: white;
+}
