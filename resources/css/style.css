@@ -1,6 +1,5 @@
 * {
     font-family: Helvetica;
-    background-color: white;
     text-align: center;
 }
 h1 {
@@ -8,7 +7,12 @@ h1 {
     font-weight: bold;
     color: white;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
 .header {
     background-image: url(the-flatiron-building.png);
-    background-size: contain;
+    background-size: cover;
 }
+
